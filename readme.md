@@ -21,19 +21,19 @@ There has been lot of manual processes involved with the provisioning of our ser
 7. Click on add WebHook and input the code below
 
         http://<Jenkins private-ip>:8080/GitHub-webhook    
-    ![wh](../project_9/images/webhooks.png)
+    ![wh](images/webhooks.png)
 8. Click on the new item option on the Jenkins webpage and create a freestyle project.
 9. In the source code management section, paste the GitHub repo URL, provide the GitHub credentials and save
 
 10. On the Jenkins homepage, click on the job/project and select configure option.
 11. Navigate to the built trigger option and check the GitHub hook trigger for GITSCM polling
-    ![built-trigger](../project_9/images/built%20trigger%201.png)
+    ![built-trigger](images/built%20trigger%201.png)
 12. Configure the Post build actions  to archive all the files – files resulted from a build are called “artifacts”.
-    ![artifacts](../project_9/images/atifactes1.png)
+    ![artifacts](images/atifactes1.png)
 13. Configure a Post-build job to save all (**) files
     ![postbuild](images/pbuild.png)
 14. Make a change on readme file in the GitHub repo and this should automatically trigger a build in our Jenkins server.
-    ![auto-trigger](../project_9/images/auto%20console%20output.png).
+    ![auto-trigger](images/auto%20console%20output.png).
 
 ## Setup SSH agent
 
