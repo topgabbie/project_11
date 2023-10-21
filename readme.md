@@ -93,7 +93,7 @@ To enable our Ansible SSH into target servers from Jenkins-Ansible host server, 
 
         git checkout -b <branch name>
     ![checkout](images/gitbranch.png)
-5. From the project_11 branch, commit and push your code to the main branch. 
+5. From the project_11 branch, commit and push your code to the main branch
 
         git status
         git add .
