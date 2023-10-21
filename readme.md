@@ -17,7 +17,7 @@ There has been lot of manual processes involved with the provisioning of our ser
 5. Next step is to configure Jenkins to automatically build any changes made in our GitHub Repo
 6. Go to settings on the GitHub repo you wish to connect to the Jenkins server and select the WebHooks options
 
-    ![settings](../project_9/images/settings.png)
+    ![settings](images/settings.png)
 7. Click on add WebHook and input the code below
 
         http://<Jenkins private-ip>:8080/GitHub-webhook    
