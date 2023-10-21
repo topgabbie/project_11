@@ -23,7 +23,7 @@ There has been lot of manual processes involved with the provisioning of our ser
         http://<Jenkins private-ip>:8080/GitHub-webhook    
     ![wh](images/webhooks.png)
 8. Click on the new item option on the Jenkins webpage and create a freestyle project.
-9. In the source code management section, paste the GitHub repo URL, provide the GitHub credentials and save
+9. In the source code management section, paste the GitHub repo URL, provide the GitHub credentials and save.
 
 10. On the Jenkins homepage, click on the job/project and select configure option.
 11. Navigate to the built trigger option and check the GitHub hook trigger for GITSCM polling
